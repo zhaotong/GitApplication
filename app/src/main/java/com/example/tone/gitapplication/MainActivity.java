@@ -10,4 +10,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
+    private void testGit(){
+
+
+        android.util.Log.d("", "testGit: ");
+    }
 }
