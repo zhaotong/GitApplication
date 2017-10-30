@@ -7,6 +7,7 @@ import android.provider.FontsContract;
 import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,10 +19,13 @@ public class MainActivity extends AppCompatActivity {
 
     private void testGit(){
 
-        findViewById()
-
         android.util.Log.d("", "testGit: ");
+        //git checkout -b mybranch
+        Toast.makeText(this,"mybranch",Toast.LENGTH_LONG).show();
+
     }
+
+
 
 
     @RequiresApi(api = Build.VERSION_CODES.O)
