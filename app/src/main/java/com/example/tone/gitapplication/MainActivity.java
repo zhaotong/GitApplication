@@ -22,7 +22,8 @@ public class MainActivity extends AppCompatActivity {
         android.util.Log.d("", "testGit: ");
         //git checkout -b mybranch
         Toast.makeText(this,"mybranch",Toast.LENGTH_LONG).show();
-
+        //git checkout -b mybranch2
+        Toast.makeText(this,"mybranch2",Toast.LENGTH_LONG).show();
     }
 
 
